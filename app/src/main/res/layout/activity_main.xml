@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textColor="@color/text_primary"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subtitle"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnBoost"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="@string/btn_boost"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/accent"
+            android:textColor="@color/bg_dark"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/card_bg"
+            android:padding="16dp"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/statusRam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/status_ram"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/statusApps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/accent"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Опциялар"
+            android:textColor="@color/text_secondary"
+            android:textSize="13sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"/>
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switchCloseApps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opt_close_apps"
+            android:textColor="@color/text_primary"
+            android:padding="12dp"/>
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switchDnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opt_dnd"
+            android:textColor="@color/text_primary"
+            android:padding="12dp"/>
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switchNetwork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opt_network"
+            android:textColor="@color/text_primary"
+            android:padding="12dp"/>
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switchGameMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opt_game_mode"
+            android:textColor="@color/text_primary"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/disclaimer"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
