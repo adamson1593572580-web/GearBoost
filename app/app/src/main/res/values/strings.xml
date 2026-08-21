@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">GearBoost</string>
+    <string name="title">GearBoost — ойын жылдамдатқыш</string>
+    <string name="subtitle">FPS-ті тұрақтандыру және лагты азайту</string>
+
+    <string name="btn_boost">БОСТЫ БАСТАУ</string>
+    <string name="btn_boost_active">БОСТ ІСКЕ ҚОСЫЛДЫ ✓</string>
+
+    <string name="opt_close_apps">Фондағы қолданбаларды жабу</string>
+    <string name="opt_dnd">Хабарландыруларды өшіру (DND)</string>
+    <string name="opt_network">Wi-Fi желісін приоритетті ету</string>
+    <string name="opt_game_mode">Android Game Mode қосу</string>
+
+    <string name="status_ram">RAM бос орны: %1$s</string>
+    <string name="status_apps_closed">%1$d фондық процесс жабылды</string>
+    <string name="status_ping">Орташа пинг: %1$s мс</string>
+
+    <string name="disclaimer">Ескерту: бұл қолданба фондық процестерді жабу, хабарландыруларды өшіру және желіні приоритетті ету арқылы жұмыс істейді.</string>
+
+    <string name="perm_usage_title">Рұқсат керек</string>
+    <string name="perm_usage_msg">Фондағы қолданбаларды көру үшін "Usage Access" рұқсатын беріңіз.</string>
+    <string name="perm_dnd_title">DND рұқсаты</string>
+    <string name="perm_dnd_msg">Хабарландыруларды басқару үшін "Do Not Disturb" рұқсатын беріңіз.</string>
+</resources>
